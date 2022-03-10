@@ -36,8 +36,9 @@ console.log(1 + 1);
 console.log(name + "hello");
 
 var me = {
-    age: 11,
-    name: 'heuzz',
+    name: 'hsg',
+    age: 25,
+    github: 'heuzz',
     isMan: true,
     sayHello: function(){
         console.log("hello");
@@ -49,3 +50,5 @@ me.sayHello();
 for (var i = 0; i < arr.length; i++){
   console.log(arr[i]);
 }
+
+var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
