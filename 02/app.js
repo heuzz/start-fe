@@ -52,3 +52,20 @@ for (var i = 0; i < arr.length; i++){
 }
 
 var month = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+var todos = ['운동'];
+var todo = '게임';
+todos.push(todo);
+
+console.log(todos);
+
+todos.forEach(function(todo){
+  console.log(todo);
+});
+
+var updateTodo = '게임';
+var updateIndex = todos.findIndex(function(todo) {
+  return todo === updateTodo;
+});
+todos[updateIndex] = '공부';
+console.log(todos);
